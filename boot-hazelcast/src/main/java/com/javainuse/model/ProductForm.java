@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.UUID;
 
 /**
- * Created by jt on 1/10/17.
+ * Created by sp on 1/10/17.
  */
 public class ProductForm {
     private UUID id;
