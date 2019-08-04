@@ -46,10 +46,10 @@ public class SpringBootJdbcApplication {
 		
 		
 		
-		System.out.println("Inside the main class making call to service first time");
+		//System.out.println("Inside the main class making call to service first time");
 		List<Employee> employeeList1 = employeeService.getAllEmployees();
 		for (Employee employee : employeeList1) {
-			System.out.println("siva "+employee.toString());
+			System.out.println("data "+employee.toString());
 		}
 		
 		
