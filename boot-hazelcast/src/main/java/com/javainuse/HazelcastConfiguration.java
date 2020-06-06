@@ -12,7 +12,7 @@ public class HazelcastConfiguration {
 
     @Bean
     public Config hazelCastConfig(){
-    	System.out.println("yo");
+    	System.out.println("yes");
         return new Config()
                 .setInstanceName("hazelcast-instance")
                 .addMapConfig(
