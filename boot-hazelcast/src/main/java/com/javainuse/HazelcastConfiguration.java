@@ -12,7 +12,7 @@ public class HazelcastConfiguration {
 
     @Bean
     public Config hazelCastConfig(){
-    	System.out.println("Enter");
+    	System.out.println("Ente");
         return new Config()
                 .setInstanceName("hazelcast-instance")
                 .addMapConfig(
