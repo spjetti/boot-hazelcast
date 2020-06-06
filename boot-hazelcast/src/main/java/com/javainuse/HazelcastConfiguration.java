@@ -12,7 +12,7 @@ public class HazelcastConfiguration {
 
     @Bean
     public Config hazelCastConfig(){
-    	System.out.println("yes");
+    	System.out.println("Enter");
         return new Config()
                 .setInstanceName("hazelcast-instance")
                 .addMapConfig(
@@ -21,6 +21,7 @@ public class HazelcastConfiguration {
                                 .setMaxSizeConfig(new MaxSizeConfig(200, MaxSizeConfig.MaxSizePolicy.FREE_HEAP_SIZE))
                                 .setEvictionPolicy(EvictionPolicy.LRU)
                                 .setTimeToLiveSeconds(20));
+        
     }
 
 }
